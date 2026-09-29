@@ -1,0 +1,578 @@
+{
+  "runs": 5,
+  "summary": {
+    "strong": {
+      "overallScore": {
+        "values": [
+          8,
+          8.5,
+          8.5,
+          8
+        ],
+        "mean": 8.25,
+        "min": 8,
+        "max": 8.5,
+        "spread": 0.5,
+        "sd": 0.25
+      },
+      "structure": {
+        "values": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "mean": 8,
+        "min": 8,
+        "max": 8,
+        "spread": 0,
+        "sd": 0
+      },
+      "clarity": {
+        "values": [
+          8,
+          9,
+          9,
+          9
+        ],
+        "mean": 8.75,
+        "min": 8,
+        "max": 9,
+        "spread": 1,
+        "sd": 0.43
+      },
+      "voice": {
+        "values": [
+          7,
+          7,
+          8,
+          7
+        ],
+        "mean": 7.25,
+        "min": 7,
+        "max": 8,
+        "spread": 1,
+        "sd": 0.43
+      },
+      "aiDetection": {
+        "values": [
+          25,
+          20,
+          25,
+          25
+        ],
+        "mean": 23.75,
+        "min": 20,
+        "max": 25,
+        "spread": 5,
+        "sd": 2.17
+      }
+    },
+    "average": {
+      "overallScore": {
+        "values": [
+          7,
+          6.5,
+          6,
+          6.5,
+          6
+        ],
+        "mean": 6.4,
+        "min": 6,
+        "max": 7,
+        "spread": 1,
+        "sd": 0.37
+      },
+      "structure": {
+        "values": [
+          6,
+          6,
+          5,
+          6,
+          6
+        ],
+        "mean": 5.8,
+        "min": 5,
+        "max": 6,
+        "spread": 1,
+        "sd": 0.4
+      },
+      "clarity": {
+        "values": [
+          7,
+          8,
+          7,
+          8,
+          7
+        ],
+        "mean": 7.4,
+        "min": 7,
+        "max": 8,
+        "spread": 1,
+        "sd": 0.49
+      },
+      "voice": {
+        "values": [
+          6,
+          5,
+          6,
+          5,
+          5
+        ],
+        "mean": 5.4,
+        "min": 5,
+        "max": 6,
+        "spread": 1,
+        "sd": 0.49
+      },
+      "aiDetection": {
+        "values": [
+          35,
+          35,
+          35,
+          30,
+          70
+        ],
+        "mean": 41,
+        "min": 30,
+        "max": 70,
+        "spread": 40,
+        "sd": 14.63
+      }
+    },
+    "weak": {
+      "overallScore": {
+        "values": [
+          3.5,
+          4,
+          3.5,
+          3,
+          4
+        ],
+        "mean": 3.6,
+        "min": 3,
+        "max": 4,
+        "spread": 1,
+        "sd": 0.37
+      },
+      "structure": {
+        "values": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "mean": 3,
+        "min": 3,
+        "max": 3,
+        "spread": 0,
+        "sd": 0
+      },
+      "clarity": {
+        "values": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "mean": 4,
+        "min": 4,
+        "max": 4,
+        "spread": 0,
+        "sd": 0
+      },
+      "voice": {
+        "values": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "mean": 3,
+        "min": 3,
+        "max": 3,
+        "spread": 0,
+        "sd": 0
+      },
+      "aiDetection": {
+        "values": [
+          80,
+          85,
+          85,
+          85,
+          70
+        ],
+        "mean": 81,
+        "min": 70,
+        "max": 85,
+        "spread": 15,
+        "sd": 5.83
+      }
+    }
+  },
+  "means": {
+    "strong": 8.25,
+    "average": 6.4,
+    "weak": 3.6
+  },
+  "rankingOk": true,
+  "correctRuns": 4,
+  "results": {
+    "strong": {
+      "chars": 2503,
+      "runs": [
+        {
+          "structure": 8,
+          "clarity": 8,
+          "voice": 7,
+          "aiDetection": 25,
+          "overallScore": 8,
+          "strengths": [
+            "Compelling personal anecdote",
+            "Strong quantitative background",
+            "Clear fit with program"
+          ],
+          "improvements": [
+            "Add more specific research goals",
+            "Show deeper reflection on challenges",
+            "Avoid generic statements",
+            "Improve flow between sections"
+          ],
+          "flaggedPassages": [
+            "I want to build the forecasting and routing systems that small cooperatives cannot afford today.",
+            "Georgia Tech can teach me how to solve it at scale.",
+            "I can apply standard methods, but I cannot yet design new ones when the standard methods fail."
+          ],
+          "rewriteSuggestion": "I believe Georgia Tech’s cutting‑edge research will empower me to scale these solutions across India’s food supply chains."
+        },
+        {
+          "structure": 8,
+          "clarity": 9,
+          "voice": 7,
+          "aiDetection": 20,
+          "overallScore": 8.5,
+          "strengths": [
+            "Strong personal narrative",
+            "Clear demonstration of impact",
+            "Good fit with program"
+          ],
+          "improvements": [
+            "Add more specific research interests",
+            "Show deeper technical depth",
+            "Avoid generic statements",
+            "Include more quantifiable achievements"
+          ],
+          "flaggedPassages": [
+            "\"I want to build the forecasting and routing systems that small cooperatives cannot afford today.\"",
+            "\"Georgia Tech can teach me how to solve it at scale.\""
+          ],
+          "rewriteSuggestion": "At Georgia Tech, I will refine my forecasting models to handle the complexities of large-scale supply chains, turning theory into tangible solutions for cooperatives across India."
+        },
+        {
+          "structure": 8,
+          "clarity": 9,
+          "voice": 8,
+          "aiDetection": 25,
+          "overallScore": 8.5,
+          "strengths": [
+            "Concrete data‑driven examples",
+            "Clear motivation and future goals",
+            "Strong technical background"
+          ],
+          "improvements": [
+            "Add more specific details about how Georgia Tech’s courses align with my research interests",
+            "Show deeper reflection on lessons learned from each project",
+            "Avoid generic phrases such as “real‑world constraints” and “solve it at scale”",
+            "Improve transitions between paragraphs for smoother flow"
+          ],
+          "flaggedPassages": [
+            "It was the first time I saw mathematics change something physical.",
+            "The work has shown me the limits of my training.",
+            "Georgia Tech can teach me how to solve it at scale."
+          ],
+          "rewriteSuggestion": "I am eager to leverage Georgia Tech’s cutting‑edge research and industry collaborations to develop scalable solutions that can be deployed across India’s food supply chains."
+        },
+        {
+          "structure": 8,
+          "clarity": 9,
+          "voice": 7,
+          "aiDetection": 25,
+          "overallScore": 8,
+          "strengths": [
+            "Concrete quantitative results",
+            "Clear research fit",
+            "Personal motivation"
+          ],
+          "improvements": [
+            "Add more specific future research questions",
+            "Show deeper reflection on challenges",
+            "Avoid generic phrases like \"the problem is real\"",
+            "Include a brief mention of how Georgia Tech's resources align with your goals"
+          ],
+          "flaggedPassages": [
+            "\"the problem is real\"",
+            "\"Georgia Tech can teach me how to solve it at scale.\""
+          ],
+          "rewriteSuggestion": "I am eager to leverage Georgia Tech’s cutting‑edge research and industry collaborations to scale my solutions for food supply chains across India."
+        }
+      ],
+      "errors": [
+        "HTTP 500: {\"error\":\"Could not parse AI response. Please try again.\"}"
+      ]
+    },
+    "average": {
+      "chars": 2277,
+      "runs": [
+        {
+          "structure": 6,
+          "clarity": 7,
+          "voice": 6,
+          "aiDetection": 35,
+          "overallScore": 7,
+          "strengths": [
+            "Clear academic background",
+            "Relevant project experience",
+            "Motivation for AI"
+          ],
+          "improvements": [
+            "Add specific research interests and faculty alignment",
+            "Show deeper reflection on project outcomes",
+            "Use more vivid, personal anecdotes",
+            "Avoid generic statements about university"
+          ],
+          "flaggedPassages": [
+            "I want to pursue my master's degree because I want to gain deeper knowledge in artificial intelligence and machine learning.",
+            "The field is growing very fast, and I believe a master's degree will help me build a strong career.",
+            "I chose the University of Texas at Dallas because it has excellent faculty, good research facilities, and a strong computer science program."
+          ],
+          "rewriteSuggestion": "My ambition to deepen my expertise in AI and machine learning drives my decision to pursue this master's program."
+        },
+        {
+          "structure": 6,
+          "clarity": 8,
+          "voice": 5,
+          "aiDetection": 35,
+          "overallScore": 6.5,
+          "strengths": [
+            "Clear academic background",
+            "Concrete project experience",
+            "Motivation for AI"
+          ],
+          "improvements": [
+            "Add more specific details about project impact",
+            "Show unique personal anecdotes",
+            "Highlight specific faculty or research aligning with interests",
+            "Improve narrative flow and transitions"
+          ],
+          "flaggedPassages": [
+            "I want to pursue my master's degree because I want to gain deeper knowledge in artificial intelligence and machine learning.",
+            "The field is growing very fast, and I believe a master's degree will help me build a strong career.",
+            "I chose the University of Texas at Dallas because it has excellent faculty, good research facilities, and a strong computer science program."
+          ],
+          "rewriteSuggestion": "My curiosity about how machine learning can transform industries drives my desire to deepen my expertise through a master's program."
+        },
+        {
+          "structure": 5,
+          "clarity": 7,
+          "voice": 6,
+          "aiDetection": 35,
+          "overallScore": 6,
+          "strengths": [
+            "Clear academic background",
+            "Relevant project experience",
+            "Motivation for AI"
+          ],
+          "improvements": [
+            "Add specific research interests and faculty alignment",
+            "Show deeper reflection on project impact",
+            "Use more vivid personal anecdotes",
+            "Avoid generic statements"
+          ],
+          "flaggedPassages": [
+            "I want to pursue my master's degree because I want to gain deeper knowledge in artificial intelligence and machine learning.",
+            "I chose the University of Texas at Dallas because it has excellent faculty, good research facilities, and a strong computer science program."
+          ],
+          "rewriteSuggestion": "My curiosity about how machine learning models can be fine‑tuned for real‑world applications has driven me to seek a master’s program that will deepen my expertise and enable me to contribute to cutting‑edge research."
+        },
+        {
+          "structure": 6,
+          "clarity": 8,
+          "voice": 5,
+          "aiDetection": 30,
+          "overallScore": 6.5,
+          "strengths": [
+            "Clear academic background",
+            "Relevant project experience",
+            "Motivation for AI"
+          ],
+          "improvements": [
+            "Add specific research interests and how they align with UTD faculty",
+            "Show deeper reflection on project challenges and lessons learned",
+            "Include vivid personal anecdotes to strengthen narrative",
+            "Highlight unique contributions you can bring to the program"
+          ],
+          "flaggedPassages": [
+            "I want to pursue my master's degree because I want to gain deeper knowledge in artificial intelligence and machine learning.",
+            "The field is growing very fast, and I believe a master's degree will help me build a strong career.",
+            "I chose the University of Texas at Dallas because it has excellent faculty, good research facilities, and a strong computer science program."
+          ],
+          "rewriteSuggestion": "My ambition to deepen my expertise in AI and machine learning drives my decision to pursue this master's program."
+        },
+        {
+          "structure": 6,
+          "clarity": 7,
+          "voice": 5,
+          "aiDetection": 70,
+          "overallScore": 6,
+          "strengths": [
+            "Clear academic background",
+            "Concrete project details",
+            "Motivation for AI"
+          ],
+          "improvements": [
+            "Add specific research interests and faculty alignment",
+            "Show deeper reflection on project challenges",
+            "Use more varied sentence structure",
+            "Include personal anecdotes"
+          ],
+          "flaggedPassages": [
+            "I want to pursue my master's degree because I want to gain deeper knowledge in artificial intelligence and machine learning.",
+            "I chose the University of Texas at Dallas because it has excellent faculty, good research facilities, and a strong computer science program.",
+            "After completing my master's degree, I want to work as a machine learning engineer in a reputed company."
+          ],
+          "rewriteSuggestion": "My ambition to deepen my expertise in AI and machine learning drives my decision to pursue this master's program."
+        }
+      ],
+      "errors": []
+    },
+    "weak": {
+      "chars": 1550,
+      "runs": [
+        {
+          "structure": 3,
+          "clarity": 4,
+          "voice": 3,
+          "aiDetection": 80,
+          "overallScore": 3.5,
+          "strengths": [
+            "Passion for technology",
+            "Enthusiasm for learning",
+            "Clear academic background"
+          ],
+          "improvements": [
+            "Add specific achievements and metrics to support claims",
+            "Provide concrete examples of projects and their impact",
+            "Tailor content to the specific program and faculty interests",
+            "Vary sentence structure and avoid clichés"
+          ],
+          "flaggedPassages": [
+            "Since my childhood I have always been passionate about technology.",
+            "I am a hardworking, dedicated and sincere student.",
+            "Your university is one of the best universities in the world."
+          ],
+          "rewriteSuggestion": "I consistently strive for excellence, balancing rigorous coursework with collaborative projects that sharpen my problem‑solving skills."
+        },
+        {
+          "structure": 3,
+          "clarity": 4,
+          "voice": 3,
+          "aiDetection": 85,
+          "overallScore": 4,
+          "strengths": [
+            "Passion for technology",
+            "Completed B.Tech in Information Technology",
+            "Desire to contribute to society"
+          ],
+          "improvements": [
+            "Include specific achievements or projects with measurable outcomes",
+            "Replace generic statements with concrete, personal anecdotes",
+            "Improve paragraph flow and logical progression",
+            "Use active voice and varied sentence structure to enhance authenticity"
+          ],
+          "flaggedPassages": [
+            "Since my childhood I have always been passionate about technology.",
+            "I am a hardworking, dedicated and sincere student.",
+            "Your university is one of the best universities in the world."
+          ],
+          "rewriteSuggestion": "I consistently push myself to excel, balancing rigorous coursework with collaborative projects that sharpen my problem‑solving skills."
+        },
+        {
+          "structure": 3,
+          "clarity": 4,
+          "voice": 3,
+          "aiDetection": 85,
+          "overallScore": 3.5,
+          "strengths": [
+            "Clear passion for technology",
+            "Mention of B.Tech degree",
+            "Goal-oriented mindset"
+          ],
+          "improvements": [
+            "Include specific academic achievements and project details",
+            "Show how your experiences align with the program",
+            "Use a more personal narrative style",
+            "Avoid generic praise of the university"
+          ],
+          "flaggedPassages": [
+            "Since my childhood I have always been passionate about technology.",
+            "I am a hardworking, dedicated and sincere student.",
+            "Your university is one of the best universities in the world."
+          ],
+          "rewriteSuggestion": "From a young age, I found myself fascinated by the way technology could solve everyday problems, sparking a lifelong curiosity that drives my academic pursuits."
+        },
+        {
+          "structure": 3,
+          "clarity": 4,
+          "voice": 3,
+          "aiDetection": 85,
+          "overallScore": 3,
+          "strengths": [
+            "Passion for technology",
+            "Hardworking attitude",
+            "Clear goal to contribute to society"
+          ],
+          "improvements": [
+            "Add specific academic achievements and project details",
+            "Provide concrete examples of leadership and teamwork",
+            "Show alignment with specific faculty or research areas",
+            "Avoid generic praise of the university"
+          ],
+          "flaggedPassages": [
+            "Since my childhood I have always been passionate about technology.",
+            "Your university is one of the best universities in the world.",
+            "I am sure that studying in your university will help me to achieve my goals"
+          ],
+          "rewriteSuggestion": "During my undergraduate studies, I consistently earned top grades while balancing a demanding project schedule, demonstrating my commitment and perseverance."
+        },
+        {
+          "structure": 3,
+          "clarity": 4,
+          "voice": 3,
+          "aiDetection": 70,
+          "overallScore": 4,
+          "strengths": [
+            "Passion for technology",
+            "Commitment to hard work",
+            "Basic academic background"
+          ],
+          "improvements": [
+            "Include specific academic achievements and project details",
+            "Tailor content to the target program and university",
+            "Use active voice and avoid generic statements",
+            "Add a clear conclusion that summarizes future goals"
+          ],
+          "flaggedPassages": [
+            "Since my childhood I have always been passionate about technology.",
+            "Technology is the backbone of modern society.",
+            "Your university is one of the best universities in the world."
+          ],
+          "rewriteSuggestion": "I consistently strive for excellence, balancing rigorous coursework with collaborative projects that sharpen my problem‑solving skills."
+        }
+      ],
+      "errors": []
+    }
+  }
+}

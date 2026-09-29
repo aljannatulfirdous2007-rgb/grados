@@ -1,0 +1,94 @@
+{
+  "runs": 5,
+  "summary": {
+    "strong": {
+      "overallScore": {
+        "values": []
+      },
+      "structure": {
+        "values": []
+      },
+      "clarity": {
+        "values": []
+      },
+      "voice": {
+        "values": []
+      },
+      "aiDetection": {
+        "values": []
+      }
+    },
+    "average": {
+      "overallScore": {
+        "values": []
+      },
+      "structure": {
+        "values": []
+      },
+      "clarity": {
+        "values": []
+      },
+      "voice": {
+        "values": []
+      },
+      "aiDetection": {
+        "values": []
+      }
+    },
+    "weak": {
+      "overallScore": {
+        "values": []
+      },
+      "structure": {
+        "values": []
+      },
+      "clarity": {
+        "values": []
+      },
+      "voice": {
+        "values": []
+      },
+      "aiDetection": {
+        "values": []
+      }
+    }
+  },
+  "means": {},
+  "rankingOk": false,
+  "correctRuns": 0,
+  "results": {
+    "strong": {
+      "chars": 2503,
+      "runs": [],
+      "errors": [
+        "HTTP 500: ",
+        "HTTP 500: ",
+        "HTTP 500: ",
+        "HTTP 500: ",
+        "HTTP 500: "
+      ]
+    },
+    "average": {
+      "chars": 2277,
+      "runs": [],
+      "errors": [
+        "HTTP 500: ",
+        "HTTP 500: ",
+        "HTTP 500: ",
+        "HTTP 500: ",
+        "HTTP 500: "
+      ]
+    },
+    "weak": {
+      "chars": 1550,
+      "runs": [],
+      "errors": [
+        "HTTP 500: ",
+        "HTTP 500: ",
+        "HTTP 500: ",
+        "HTTP 500: ",
+        "HTTP 500: "
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+I am applying for the Master of Science in Computer Science at the University of Texas at Dallas. I completed my Bachelor of Engineering in Computer Science from SRM Institute of Science and Technology with a CGPA of 8.1.
+
+I have been interested in computers since my school days. During my undergraduate studies, I learned subjects like Data Structures, Operating Systems, Database Management Systems, and Machine Learning. I enjoyed Machine Learning the most because it can be used to solve many real-world problems.
+
+In my final year, I did a project on fake news detection using machine learning. We collected a dataset from Kaggle and used algorithms like Naive Bayes, Logistic Regression, and LSTM. The LSTM model gave the best accuracy of 89 percent. This project helped me understand natural language processing and how to preprocess text data. I also learned to work in a team of four members.
+
+I did an internship at a startup in Chennai for three months, where I worked on building REST APIs using Python and Flask. I also learned about Git and working in an agile environment. This internship improved my technical skills and communication skills.
+
+I have also completed online courses on Coursera, including Machine Learning by Andrew Ng and Deep Learning Specialization. I participated in two hackathons and our team reached the finals in one of them.
+
+I want to pursue my master's degree because I want to gain deeper knowledge in artificial intelligence and machine learning. The field is growing very fast, and I believe a master's degree will help me build a strong career.
+
+I chose the University of Texas at Dallas because it has excellent faculty, good research facilities, and a strong computer science program. The university is also located in a city with many technology companies, which will give me good opportunities for internships and jobs.
+
+After completing my master's degree, I want to work as a machine learning engineer in a reputed company. In the long term, I want to start my own company in the field of AI.
+
+I believe I am a good fit for this program because of my academic background, project experience, and passion for learning. I am confident that I will be able to contribute to the university and make the most of this opportunity.

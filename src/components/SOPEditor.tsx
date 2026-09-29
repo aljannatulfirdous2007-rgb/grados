@@ -13,7 +13,10 @@ interface SOPAnalysis {
   improvements: string[]
   flaggedPassages: string[]
   rewriteSuggestion: string
+  truncated?: boolean
 }
+
+const MAX_SOP_CHARS = 12000
 
 function ScoreRing({ score, label, color }: { score: number; label: string; color: string }) {
   const pct = (score / 10) * 100
@@ -96,9 +99,16 @@ export default function SOPEditor() {
           className="w-full rounded-xl border border-slate-700 bg-slate-900 p-4 text-sm text-slate-200 placeholder-slate-600 focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500 resize-y"
         />
         <div className="mt-1 flex items-center justify-between text-xs text-slate-500">
-          <span>{sop.length} characters</span>
+          <span className={sop.length > MAX_SOP_CHARS ? 'text-amber-400' : ''}>
+            {sop.length.toLocaleString()} / {MAX_SOP_CHARS.toLocaleString()} characters
+          </span>
           <span>Recommended: 500–1,000 words</span>
         </div>
+        {sop.length > MAX_SOP_CHARS && (
+          <p className="mt-2 text-xs text-amber-400">
+            Your SOP is longer than ~2,000 words. Only the first {MAX_SOP_CHARS.toLocaleString()} characters will be analyzed — most SOPs should be under 1,200 words.
+          </p>
+        )}
       </div>
 
       {error && (
@@ -127,6 +137,13 @@ export default function SOPEditor() {
       {/* Results */}
       {result && (
         <div className="space-y-6 animate-fade-up">
+          {result.truncated && (
+            <div className="flex items-center gap-2 rounded-xl border border-amber-500/20 bg-amber-500/10 px-4 py-3 text-sm text-amber-400">
+              <AlertTriangle className="h-4 w-4 flex-shrink-0" />
+              Only the first ~2,000 words were analyzed. Feedback may miss content after that point.
+            </div>
+          )}
+
           {/* Score rings */}
           <div className="rounded-2xl border border-slate-800 bg-slate-900 p-6">
             <h3 className="mb-6 text-sm font-semibold uppercase tracking-wider text-slate-400">

@@ -1,0 +1,441 @@
+{
+  "runs": 5,
+  "summary": {
+    "strong": {
+      "overallScore": {
+        "values": [
+          8.5,
+          8
+        ],
+        "mean": 8.25,
+        "min": 8,
+        "max": 8.5,
+        "spread": 0.5,
+        "sd": 0.25
+      },
+      "structure": {
+        "values": [
+          8,
+          8
+        ],
+        "mean": 8,
+        "min": 8,
+        "max": 8,
+        "spread": 0,
+        "sd": 0
+      },
+      "clarity": {
+        "values": [
+          9,
+          8
+        ],
+        "mean": 8.5,
+        "min": 8,
+        "max": 9,
+        "spread": 1,
+        "sd": 0.5
+      },
+      "voice": {
+        "values": [
+          8,
+          7
+        ],
+        "mean": 7.5,
+        "min": 7,
+        "max": 8,
+        "spread": 1,
+        "sd": 0.5
+      },
+      "aiDetection": {
+        "values": [
+          25,
+          15
+        ],
+        "mean": 20,
+        "min": 15,
+        "max": 25,
+        "spread": 10,
+        "sd": 5
+      }
+    },
+    "average": {
+      "overallScore": {
+        "values": [
+          6,
+          6,
+          6.5
+        ],
+        "mean": 6.17,
+        "min": 6,
+        "max": 6.5,
+        "spread": 0.5,
+        "sd": 0.24
+      },
+      "structure": {
+        "values": [
+          6,
+          5,
+          6
+        ],
+        "mean": 5.67,
+        "min": 5,
+        "max": 6,
+        "spread": 1,
+        "sd": 0.47
+      },
+      "clarity": {
+        "values": [
+          7,
+          8,
+          8
+        ],
+        "mean": 7.67,
+        "min": 7,
+        "max": 8,
+        "spread": 1,
+        "sd": 0.47
+      },
+      "voice": {
+        "values": [
+          5,
+          6,
+          5
+        ],
+        "mean": 5.33,
+        "min": 5,
+        "max": 6,
+        "spread": 1,
+        "sd": 0.47
+      },
+      "aiDetection": {
+        "values": [
+          30,
+          70,
+          75
+        ],
+        "mean": 58.33,
+        "min": 30,
+        "max": 75,
+        "spread": 45,
+        "sd": 20.14
+      }
+    },
+    "weak": {
+      "overallScore": {
+        "values": [
+          4,
+          3,
+          4,
+          3
+        ],
+        "mean": 3.5,
+        "min": 3,
+        "max": 4,
+        "spread": 1,
+        "sd": 0.5
+      },
+      "structure": {
+        "values": [
+          3,
+          2,
+          2,
+          3
+        ],
+        "mean": 2.5,
+        "min": 2,
+        "max": 3,
+        "spread": 1,
+        "sd": 0.5
+      },
+      "clarity": {
+        "values": [
+          5,
+          5,
+          5,
+          4
+        ],
+        "mean": 4.75,
+        "min": 4,
+        "max": 5,
+        "spread": 1,
+        "sd": 0.43
+      },
+      "voice": {
+        "values": [
+          4,
+          3,
+          3,
+          3
+        ],
+        "mean": 3.25,
+        "min": 3,
+        "max": 4,
+        "spread": 1,
+        "sd": 0.43
+      },
+      "aiDetection": {
+        "values": [
+          80,
+          85,
+          80,
+          80
+        ],
+        "mean": 81.25,
+        "min": 80,
+        "max": 85,
+        "spread": 5,
+        "sd": 2.17
+      }
+    }
+  },
+  "means": {
+    "strong": 8.25,
+    "average": 6.17,
+    "weak": 3.5
+  },
+  "rankingOk": true,
+  "correctRuns": 2,
+  "results": {
+    "strong": {
+      "chars": 2503,
+      "runs": [
+        {
+          "structure": 8,
+          "clarity": 9,
+          "voice": 8,
+          "aiDetection": 25,
+          "overallScore": 8.5,
+          "strengths": [
+            "Clear narrative arc",
+            "Concrete metrics and outcomes",
+            "Specific research interests"
+          ],
+          "improvements": [
+            "Add deeper personal reflection on motivations",
+            "Elaborate on technical challenges and solutions",
+            "Avoid generic statements about impact",
+            "Improve transitions between experiences"
+          ],
+          "flaggedPassages": [
+            "It was the first time I saw mathematics change something physical.",
+            "I want to build the forecasting and routing systems that small cooperatives cannot afford today."
+          ],
+          "rewriteSuggestion": "I envision creating affordable forecasting and routing solutions that empower small cooperatives to reduce waste."
+        },
+        {
+          "structure": 8,
+          "clarity": 8,
+          "voice": 7,
+          "aiDetection": 15,
+          "overallScore": 8,
+          "strengths": [
+            "Compelling personal anecdote",
+            "Strong technical background",
+            "Clear fit with program"
+          ],
+          "improvements": [
+            "Add more specific details about research interests",
+            "Show deeper reflection on challenges faced",
+            "Avoid generic phrases like 'real problem'",
+            "Include measurable impact of work"
+          ],
+          "flaggedPassages": [
+            "I want to build the forecasting and routing systems that small cooperatives cannot afford today.",
+            "Georgia Tech can teach me how to solve it at scale.",
+            "The canteen bins taught me that the problem is real."
+          ],
+          "rewriteSuggestion": "I believe Georgia Tech’s cutting‑edge research will empower me to scale these solutions across India’s food supply chains."
+        }
+      ],
+      "errors": [
+        "HTTP 500: {\"error\":\"Could not parse AI response. Please try again.\"}",
+        "HTTP 500: {\"error\":\"Could not parse AI response. Please try again.\"}",
+        "HTTP 500: {\"error\":\"Could not parse AI response. Please try again.\"}"
+      ]
+    },
+    "average": {
+      "chars": 2277,
+      "runs": [
+        {
+          "structure": 6,
+          "clarity": 7,
+          "voice": 5,
+          "aiDetection": 30,
+          "overallScore": 6,
+          "strengths": [
+            "Clear academic background",
+            "Relevant project experience",
+            "Motivation for AI"
+          ],
+          "improvements": [
+            "Add specific research interests and faculty alignment",
+            "Show deeper reflection on project challenges",
+            "Use more vivid, personal anecdotes",
+            "Avoid generic statements about 'good fit'"
+          ],
+          "flaggedPassages": [
+            "I want to pursue my master's degree because I want to gain deeper knowledge in artificial intelligence and machine learning.",
+            "The field is growing very fast, and I believe a master's degree will help me build a strong career.",
+            "I believe I am a good fit for this program because of my academic background, project experience, and passion for learning."
+          ],
+          "rewriteSuggestion": "My ambition to master AI stems from witnessing how machine learning transforms industries, and I am eager to deepen my expertise through your program."
+        },
+        {
+          "structure": 5,
+          "clarity": 8,
+          "voice": 6,
+          "aiDetection": 70,
+          "overallScore": 6,
+          "strengths": [
+            "Clear academic background",
+            "Relevant project experience",
+            "Motivation for AI"
+          ],
+          "improvements": [
+            "Add specific research interests and faculty alignment",
+            "Show deeper reflection on projects",
+            "Use varied sentence structure",
+            "Include quantifiable achievements"
+          ],
+          "flaggedPassages": [
+            "I want to pursue my master's degree because I want to gain deeper knowledge in artificial intelligence and machine learning.",
+            "I chose the University of Texas at Dallas because it has excellent faculty, good research facilities, and a strong computer science program."
+          ],
+          "rewriteSuggestion": "My ambition to deepen my expertise in AI and machine learning drives my decision to pursue this master's program."
+        },
+        {
+          "structure": 6,
+          "clarity": 8,
+          "voice": 5,
+          "aiDetection": 75,
+          "overallScore": 6.5,
+          "strengths": [
+            "Clear academic background",
+            "Concrete project experience",
+            "Motivation for AI"
+          ],
+          "improvements": [
+            "Add specific research interests and faculty alignment",
+            "Show more personal anecdotes",
+            "Quantify impact of projects",
+            "Use varied sentence structure"
+          ],
+          "flaggedPassages": [
+            "I want to pursue my master's degree because I want to gain deeper knowledge in artificial intelligence and machine learning.",
+            "The field is growing very fast, and I believe a master's degree will help me build a strong career.",
+            "I chose the University of Texas at Dallas because it has excellent faculty, good research facilities, and a strong computer science program."
+          ],
+          "rewriteSuggestion": "My ambition to deepen my expertise in AI and machine learning drives my decision to pursue this master's program."
+        }
+      ],
+      "errors": [
+        "HTTP 500: {\"error\":\"Could not parse AI response. Please try again.\"}",
+        "HTTP 500: {\"error\":\"Could not parse AI response. Please try again.\"}"
+      ]
+    },
+    "weak": {
+      "chars": 1550,
+      "runs": [
+        {
+          "structure": 3,
+          "clarity": 5,
+          "voice": 4,
+          "aiDetection": 80,
+          "overallScore": 4,
+          "strengths": [
+            "Clear passion for technology",
+            "Mention of specific fields (AI, ML, cloud computing)",
+            "Goal orientation toward future career"
+          ],
+          "improvements": [
+            "Add concrete achievements and metrics to support claims",
+            "Tailor content to specific program and faculty interests",
+            "Use varied sentence structures and active voice",
+            "Provide specific examples of projects or research experiences"
+          ],
+          "flaggedPassages": [
+            "Since my childhood I have always been passionate about technology.",
+            "I have always dreamed of studying in a prestigious university abroad and your esteemed university is the perfect place for me to fulfil my dreams.",
+            "Your university is one of the best universities in the world."
+          ],
+          "rewriteSuggestion": "I consistently tackle challenges with diligence, enthusiasm, and integrity, ensuring I deliver high-quality work in every project."
+        },
+        {
+          "structure": 2,
+          "clarity": 5,
+          "voice": 3,
+          "aiDetection": 85,
+          "overallScore": 3,
+          "strengths": [
+            "Clear enthusiasm for technology",
+            "Basic academic background",
+            "Goal orientation"
+          ],
+          "improvements": [
+            "Provide specific academic achievements and project details",
+            "Explain research interests and how they align with the program",
+            "Use concrete examples to illustrate skills and experiences",
+            "Avoid generic statements about the university"
+          ],
+          "flaggedPassages": [
+            "Since my childhood I have always been passionate about technology.",
+            "Technology is the backbone of modern society.",
+            "Your university is one of the best universities in the world."
+          ],
+          "rewriteSuggestion": "During my undergraduate studies, I consistently balanced rigorous coursework with extracurricular leadership roles, demonstrating resilience and a genuine commitment to learning."
+        },
+        {
+          "structure": 2,
+          "clarity": 5,
+          "voice": 3,
+          "aiDetection": 80,
+          "overallScore": 4,
+          "strengths": [
+            "Clear intent to study abroad",
+            "Mention of technical background",
+            "Motivation to contribute to society"
+          ],
+          "improvements": [
+            "Add specific achievements and measurable outcomes from projects",
+            "Highlight unique challenges overcome and personal growth",
+            "Tailor content to the specific university and program",
+            "Use active voice and varied sentence structure to avoid generic phrasing"
+          ],
+          "flaggedPassages": [
+            "Since my childhood I have always been passionate about technology.",
+            "I have always dreamed of studying in a prestigious university abroad and your esteemed university is the perfect place for me to fulfil my dreams.",
+            "Your university is one of the best universities in the world."
+          ],
+          "rewriteSuggestion": "I consistently strive for excellence, balancing rigorous coursework with extracurricular projects that sharpen my problem‑solving skills."
+        },
+        {
+          "structure": 3,
+          "clarity": 4,
+          "voice": 3,
+          "aiDetection": 80,
+          "overallScore": 3,
+          "strengths": [
+            "Clear enthusiasm",
+            "Basic academic background",
+            "Future goals stated"
+          ],
+          "improvements": [
+            "Provide concrete achievements and metrics",
+            "Show unique experiences and projects",
+            "Improve transitions and narrative flow",
+            "Use specific language instead of generic phrases"
+          ],
+          "flaggedPassages": [
+            "Since my childhood I have always been passionate about technology.",
+            "I have always dreamed of studying in a prestigious university abroad and your esteemed university is the perfect place for me to fulfil my dreams.",
+            "Your university is one of the best universities in the world."
+          ],
+          "rewriteSuggestion": "During my B.Tech, I delved into advanced courses such as Distributed Systems and Data Mining, and my capstone project on real-time traffic prediction sharpened my analytical and problem‑solving skills."
+        }
+      ],
+      "errors": [
+        "HTTP 500: {\"error\":\"Could not parse AI response. Please try again.\"}"
+      ]
+    }
+  }
+}

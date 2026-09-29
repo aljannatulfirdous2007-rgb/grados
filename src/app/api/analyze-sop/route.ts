@@ -1,6 +1,10 @@
 import Groq from 'groq-sdk'
 import { NextRequest } from 'next/server'
 
+// ~2,000 words — longer than any university's SOP limit, so normal essays are read in full
+const MAX_SOP_CHARS = 12000
+const MAX_ATTEMPTS = 3
+
 export async function POST(request: NextRequest) {
   const groq = new Groq({ apiKey: process.env.GROQ_API_KEY })
   const { sop } = await request.json()
@@ -26,22 +30,30 @@ Analyze this Statement of Purpose and return ONLY valid JSON (no markdown, no ex
 }
 
 SOP to analyze:
-${sop.slice(0, 3000)}`
+${sop.slice(0, MAX_SOP_CHARS)}`
 
-  const completion = await groq.chat.completions.create({
-    model: 'llama-3.1-8b-instant',
-    messages: [{ role: 'user', content: prompt }],
-    temperature: 0.3,
-    max_tokens: 800,
-  })
+  // gpt-oss "thinks" before answering and those tokens count toward max_tokens —
+  // 800 cut off most answers. 4000 is a ceiling, not a cost: we only pay for tokens used.
+  // Retry up to 2 more times so the student rarely sees an error.
+  for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt++) {
+    try {
+      const completion = await groq.chat.completions.create({
+        model: process.env.GROQ_MODEL ?? 'openai/gpt-oss-20b',
+        messages: [{ role: 'user', content: prompt }],
+        temperature: 0.3,
+        max_tokens: 4000,
+      })
 
-  const raw = completion.choices[0]?.message?.content ?? ''
+      const raw = completion.choices[0]?.message?.content ?? ''
+      const jsonMatch = raw.match(/\{[\s\S]*\}/)
+      if (!jsonMatch) continue
 
-  const jsonMatch = raw.match(/\{[\s\S]*\}/)
-  if (!jsonMatch) {
-    return Response.json({ error: 'Could not parse AI response. Please try again.' }, { status: 500 })
+      const result = JSON.parse(jsonMatch[0])
+      return Response.json({ ...result, truncated: sop.length > MAX_SOP_CHARS })
+    } catch (err) {
+      console.error(`analyze-sop attempt ${attempt + 1} failed:`, err)
+    }
   }
 
-  const result = JSON.parse(jsonMatch[0])
-  return Response.json(result)
+  return Response.json({ error: 'Could not analyze your SOP right now. Please try again in a moment.' }, { status: 500 })
 }

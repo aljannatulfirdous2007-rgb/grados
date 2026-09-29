@@ -1,0 +1,815 @@
+{
+  "runs": 5,
+  "summary": {
+    "strong": {
+      "overallScore": {
+        "values": [
+          8.5,
+          8,
+          8.5,
+          7.5,
+          8.5
+        ],
+        "mean": 8.2,
+        "min": 7.5,
+        "max": 8.5,
+        "spread": 1,
+        "sd": 0.4
+      },
+      "structure": {
+        "values": [
+          8,
+          8,
+          8,
+          7,
+          8
+        ],
+        "mean": 7.8,
+        "min": 7,
+        "max": 8,
+        "spread": 1,
+        "sd": 0.4
+      },
+      "clarity": {
+        "values": [
+          9,
+          9,
+          9,
+          8,
+          9
+        ],
+        "mean": 8.8,
+        "min": 8,
+        "max": 9,
+        "spread": 1,
+        "sd": 0.4
+      },
+      "voice": {
+        "values": [
+          7,
+          8,
+          8,
+          7,
+          8
+        ],
+        "mean": 7.6,
+        "min": 7,
+        "max": 8,
+        "spread": 1,
+        "sd": 0.49
+      },
+      "aiDetection": {
+        "values": [
+          20,
+          20,
+          15,
+          15,
+          15
+        ],
+        "mean": 17,
+        "min": 15,
+        "max": 20,
+        "spread": 5,
+        "sd": 2.45
+      }
+    },
+    "average": {
+      "overallScore": {
+        "values": [
+          6.5,
+          6,
+          7,
+          6.5,
+          5.5
+        ],
+        "mean": 6.3,
+        "min": 5.5,
+        "max": 7,
+        "spread": 1.5,
+        "sd": 0.51
+      },
+      "structure": {
+        "values": [
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "mean": 6,
+        "min": 6,
+        "max": 6,
+        "spread": 0,
+        "sd": 0
+      },
+      "clarity": {
+        "values": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "mean": 7,
+        "min": 7,
+        "max": 7,
+        "spread": 0,
+        "sd": 0
+      },
+      "voice": {
+        "values": [
+          6,
+          5,
+          5,
+          5,
+          5
+        ],
+        "mean": 5.2,
+        "min": 5,
+        "max": 6,
+        "spread": 1,
+        "sd": 0.4
+      },
+      "aiDetection": {
+        "values": [
+          70,
+          70,
+          30,
+          30,
+          70
+        ],
+        "mean": 54,
+        "min": 30,
+        "max": 70,
+        "spread": 40,
+        "sd": 19.6
+      }
+    },
+    "weak": {
+      "overallScore": {
+        "values": [
+          3,
+          3,
+          3.5,
+          3.5,
+          4
+        ],
+        "mean": 3.4,
+        "min": 3,
+        "max": 4,
+        "spread": 1,
+        "sd": 0.37
+      },
+      "structure": {
+        "values": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "mean": 3,
+        "min": 3,
+        "max": 3,
+        "spread": 0,
+        "sd": 0
+      },
+      "clarity": {
+        "values": [
+          4,
+          4,
+          5,
+          4,
+          4
+        ],
+        "mean": 4.2,
+        "min": 4,
+        "max": 5,
+        "spread": 1,
+        "sd": 0.4
+      },
+      "voice": {
+        "values": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "mean": 3.2,
+        "min": 3,
+        "max": 4,
+        "spread": 1,
+        "sd": 0.4
+      },
+      "aiDetection": {
+        "values": [
+          80,
+          80,
+          85,
+          75,
+          75
+        ],
+        "mean": 79,
+        "min": 75,
+        "max": 85,
+        "spread": 10,
+        "sd": 3.74
+      }
+    },
+    "long": {
+      "overallScore": {
+        "values": [
+          7.5,
+          8,
+          8.5,
+          8,
+          8.3
+        ],
+        "mean": 8.06,
+        "min": 7.5,
+        "max": 8.5,
+        "spread": 1,
+        "sd": 0.34
+      },
+      "structure": {
+        "values": [
+          8,
+          8,
+          9,
+          8,
+          8
+        ],
+        "mean": 8.2,
+        "min": 8,
+        "max": 9,
+        "spread": 1,
+        "sd": 0.4
+      },
+      "clarity": {
+        "values": [
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "mean": 8,
+        "min": 8,
+        "max": 8,
+        "spread": 0,
+        "sd": 0
+      },
+      "voice": {
+        "values": [
+          7,
+          7,
+          7,
+          7,
+          8
+        ],
+        "mean": 7.2,
+        "min": 7,
+        "max": 8,
+        "spread": 1,
+        "sd": 0.4
+      },
+      "aiDetection": {
+        "values": [
+          25,
+          18,
+          20,
+          20,
+          20
+        ],
+        "mean": 20.6,
+        "min": 18,
+        "max": 25,
+        "spread": 7,
+        "sd": 2.33
+      }
+    }
+  },
+  "means": {
+    "strong": 8.2,
+    "average": 6.3,
+    "weak": 3.4,
+    "long": 8.06
+  },
+  "rankingOk": true,
+  "correctRuns": 5,
+  "redundant": 0,
+  "results": {
+    "strong": {
+      "chars": 2503,
+      "runs": [
+        {
+          "structure": 8,
+          "clarity": 9,
+          "voice": 7,
+          "aiDetection": 20,
+          "overallScore": 8.5,
+          "strengths": [
+            "Concrete examples",
+            "Clear motivation",
+            "Strong fit"
+          ],
+          "improvements": [
+            "Add more detail on specific research interests",
+            "Show deeper personal reflection on challenges faced",
+            "Avoid generic phrasing such as \"the problem is real\"",
+            "Quantify impact with more precise metrics"
+          ],
+          "flaggedPassages": [
+            "I want to build the forecasting and routing systems that small cooperatives cannot afford today.",
+            "The canteen bins taught me that the problem is real."
+          ],
+          "rewriteSuggestion": "I aim to design affordable forecasting and routing solutions that empower small cooperatives to reduce waste.",
+          "truncated": false
+        },
+        {
+          "structure": 8,
+          "clarity": 9,
+          "voice": 8,
+          "aiDetection": 20,
+          "overallScore": 8,
+          "strengths": [
+            "Compelling personal anecdote",
+            "Strong quantitative achievements",
+            "Clear fit with program"
+          ],
+          "improvements": [
+            "Add more specific research interests",
+            "Show deeper academic background",
+            "Avoid repetitive phrasing",
+            "Provide concrete future impact"
+          ],
+          "flaggedPassages": [
+            "I also want to take ISYE 6669 and contribute to the Supply Chain and Logistics Institute's projects with industry partners.",
+            "I want to build the forecasting and routing systems that small cooperatives cannot afford today."
+          ],
+          "rewriteSuggestion": "Georgia Tech’s cutting‑edge research will empower me to scale these solutions and bring tangible change to food supply chains across India.",
+          "truncated": false
+        },
+        {
+          "structure": 8,
+          "clarity": 9,
+          "voice": 8,
+          "aiDetection": 15,
+          "overallScore": 8.5,
+          "strengths": [
+            "Clear narrative arc",
+            "Concrete data‑driven examples",
+            "Strong fit with program"
+          ],
+          "improvements": [
+            "Specify research questions and methods you wish to explore",
+            "Show deeper personal reflection on why food waste matters to you",
+            "Replace generic phrases with precise, unique language",
+            "Highlight how your industry experience informs your research goals"
+          ],
+          "flaggedPassages": [
+            "the first time I saw mathematics change something physical",
+            "I can apply standard methods, but I cannot yet design new ones when the standard methods fail",
+            "Georgia Tech can teach me how to solve it at scale"
+          ],
+          "rewriteSuggestion": "I am eager to collaborate with Georgia Tech’s faculty and industry partners to develop scalable solutions that can be deployed across India’s food supply chains.",
+          "truncated": false
+        },
+        {
+          "structure": 7,
+          "clarity": 8,
+          "voice": 7,
+          "aiDetection": 15,
+          "overallScore": 7.5,
+          "strengths": [
+            "Concrete real‑world example",
+            "Clear research interests",
+            "Strong quantitative achievements"
+          ],
+          "improvements": [
+            "Add more specific details about coursework and skills",
+            "Show deeper reflection on challenges faced",
+            "Avoid generic statements like “I want to”",
+            "Improve flow between sections"
+          ],
+          "flaggedPassages": [
+            "I want to build the forecasting and routing systems that small cooperatives cannot afford today.",
+            "Georgia Tech can teach me how to solve it at scale.",
+            "I now maintain forecasting pipelines used by over 200 small retailers."
+          ],
+          "rewriteSuggestion": "I am eager to learn from Georgia Tech’s faculty and resources to scale these solutions for larger supply chains.",
+          "truncated": false
+        },
+        {
+          "structure": 8,
+          "clarity": 9,
+          "voice": 8,
+          "aiDetection": 15,
+          "overallScore": 8.5,
+          "strengths": [
+            "Concrete data-driven examples",
+            "Clear alignment with program",
+            "Strong narrative arc"
+          ],
+          "improvements": [
+            "Specify research questions you plan to tackle",
+            "Reduce generic statements about Georgia Tech",
+            "Add deeper personal reflection on challenges faced",
+            "Highlight broader impact of your work"
+          ],
+          "flaggedPassages": [
+            "Georgia Tech can teach me how to solve it at scale.",
+            "I want to build the forecasting and routing systems that small cooperatives cannot afford today."
+          ],
+          "rewriteSuggestion": "I am eager to collaborate with Georgia Tech’s faculty to develop scalable solutions that can transform food supply chains across India.",
+          "truncated": false
+        }
+      ],
+      "errors": []
+    },
+    "average": {
+      "chars": 2277,
+      "runs": [
+        {
+          "structure": 6,
+          "clarity": 7,
+          "voice": 6,
+          "aiDetection": 70,
+          "overallScore": 6.5,
+          "strengths": [
+            "Clear academic background",
+            "Relevant project experience",
+            "Motivation for AI"
+          ],
+          "improvements": [
+            "Add specific research interests and faculty alignment",
+            "Show more personal anecdotes and unique experiences",
+            "Improve transitions and narrative flow",
+            "Quantify achievements more precisely"
+          ],
+          "flaggedPassages": [
+            "I want to pursue my master's degree because I want to gain deeper knowledge in artificial intelligence and machine learning.",
+            "The field is growing very fast, and I believe a master's degree will help me build a strong career.",
+            "I believe I am a good fit for this program because of my academic background, project experience, and passion for learning."
+          ],
+          "rewriteSuggestion": "My ambition to deepen my expertise in AI and machine learning drives my decision to pursue this master's program.",
+          "truncated": false
+        },
+        {
+          "structure": 6,
+          "clarity": 7,
+          "voice": 5,
+          "aiDetection": 70,
+          "overallScore": 6,
+          "strengths": [
+            "Clear academic background",
+            "Relevant project experience",
+            "Motivation for AI"
+          ],
+          "improvements": [
+            "Add specific research interests and faculty alignment",
+            "Show deeper reflection on project impact",
+            "Use more varied sentence structures",
+            "Include concrete future goals"
+          ],
+          "flaggedPassages": [
+            "I want to pursue my master's degree because I want to gain deeper knowledge in artificial intelligence and machine learning.",
+            "I chose the University of Texas at Dallas because it has excellent faculty, good research facilities, and a strong computer science program.",
+            "After completing my master's degree, I want to work as a machine learning engineer in a reputed company."
+          ],
+          "rewriteSuggestion": "My ambition to deepen my expertise in AI and machine learning drives my decision to pursue this master's program.",
+          "truncated": false
+        },
+        {
+          "structure": 6,
+          "clarity": 7,
+          "voice": 5,
+          "aiDetection": 30,
+          "overallScore": 7,
+          "strengths": [
+            "Clear academic background",
+            "Relevant project experience",
+            "Motivation for AI/ML"
+          ],
+          "improvements": [
+            "Add specific achievements and metrics",
+            "Show deeper reflection on learning outcomes",
+            "Connect research interests to UTD faculty",
+            "Use more varied sentence structure"
+          ],
+          "flaggedPassages": [
+            "I want to pursue my master's degree because I want to gain deeper knowledge in artificial intelligence and machine learning.",
+            "I chose the University of Texas at Dallas because it has excellent faculty, good research facilities, and a strong computer science program.",
+            "I believe I am a good fit for this program because of my academic background, project experience, and passion for learning."
+          ],
+          "rewriteSuggestion": "My ambition to deepen my expertise in AI and machine learning drives my decision to pursue this master's program.",
+          "truncated": false
+        },
+        {
+          "structure": 6,
+          "clarity": 7,
+          "voice": 5,
+          "aiDetection": 30,
+          "overallScore": 6.5,
+          "strengths": [
+            "Clear academic background",
+            "Relevant project experience",
+            "Motivation for AI"
+          ],
+          "improvements": [
+            "Add specific research interests and faculty alignment",
+            "Show deeper reflection on project challenges",
+            "Use more vivid personal anecdotes",
+            "Avoid generic statements about 'good fit'"
+          ],
+          "flaggedPassages": [
+            "I want to pursue my master's degree because I want to gain deeper knowledge in artificial intelligence and machine learning.",
+            "I chose the University of Texas at Dallas because it has excellent faculty, good research facilities, and a strong computer science program.",
+            "I am confident that I will be able to contribute to the university and make the most of this opportunity."
+          ],
+          "rewriteSuggestion": "My ambition to deepen my expertise in AI and machine learning drives my decision to pursue this master's program.",
+          "truncated": false
+        },
+        {
+          "structure": 6,
+          "clarity": 7,
+          "voice": 5,
+          "aiDetection": 70,
+          "overallScore": 5.5,
+          "strengths": [
+            "Clear academic background",
+            "Relevant project experience",
+            "Motivation for AI"
+          ],
+          "improvements": [
+            "Specify research interests or faculty you wish to work with",
+            "Provide deeper reflection on project impact and lessons learned",
+            "Use vivid personal anecdotes to illustrate passion",
+            "Improve transitions and overall flow for stronger narrative"
+          ],
+          "truncated": false
+        }
+      ],
+      "errors": []
+    },
+    "weak": {
+      "chars": 1550,
+      "runs": [
+        {
+          "structure": 3,
+          "clarity": 4,
+          "voice": 3,
+          "aiDetection": 80,
+          "overallScore": 3,
+          "strengths": [
+            "passion for technology",
+            "dedication",
+            "team player"
+          ],
+          "improvements": [
+            "Include specific academic achievements and project details to demonstrate expertise",
+            "Clearly articulate how the chosen program aligns with career goals",
+            "Use concrete examples of leadership and communication skills",
+            "Avoid generic praise of the university and instead reference specific faculty or resources"
+          ],
+          "flaggedPassages": [
+            "Since my childhood I have always been passionate about technology.",
+            "I have always dreamed of studying in a prestigious university abroad and your esteemed university is the perfect place for me to fulfil my dreams.",
+            "Your university is one of the best universities in the world."
+          ],
+          "rewriteSuggestion": "I consistently strive for excellence, dedicating 100% effort to every academic and extracurricular endeavor I undertake.",
+          "truncated": false
+        },
+        {
+          "structure": 3,
+          "clarity": 4,
+          "voice": 3,
+          "aiDetection": 80,
+          "overallScore": 3,
+          "strengths": [
+            "Clear passion for technology",
+            "Mention of academic background",
+            "Goal orientation"
+          ],
+          "improvements": [
+            "Add specific examples of projects and achievements",
+            "Show unique personal experiences",
+            "Tailor content to the specific university and program",
+            "Use varied sentence structure and avoid clichés"
+          ],
+          "flaggedPassages": [
+            "Since my childhood I have always been passionate about technology.",
+            "I have always dreamed of studying in a prestigious university abroad and your esteemed university is the perfect place for me to fulfil my dreams.",
+            "Your university is one of the best universities in the world."
+          ],
+          "rewriteSuggestion": "During my undergraduate studies, I consistently balanced rigorous coursework with extracurricular projects, demonstrating both diligence and a genuine commitment to learning.",
+          "truncated": false
+        },
+        {
+          "structure": 3,
+          "clarity": 5,
+          "voice": 4,
+          "aiDetection": 85,
+          "overallScore": 3.5,
+          "strengths": [
+            "Passion for technology",
+            "Team player",
+            "Dedication"
+          ],
+          "improvements": [
+            "Include specific academic achievements and project details",
+            "Provide concrete examples of leadership and communication skills",
+            "Avoid generic statements about the university",
+            "Show how your background aligns with the program"
+          ],
+          "flaggedPassages": [
+            "Since my childhood I have always been passionate about technology.",
+            "I have always dreamed of studying in a prestigious university abroad and your esteemed university is the perfect place for me to fulfil my dreams.",
+            "Your university is one of the best universities in the world."
+          ],
+          "rewriteSuggestion": "During my undergraduate studies, I consistently balanced rigorous coursework with extracurricular projects, demonstrating resilience and a genuine commitment to learning.",
+          "truncated": false
+        },
+        {
+          "structure": 3,
+          "clarity": 4,
+          "voice": 3,
+          "aiDetection": 75,
+          "overallScore": 3.5,
+          "strengths": [
+            "Clear passion for technology",
+            "Mention of academic background",
+            "Future career aspiration"
+          ],
+          "improvements": [
+            "Add specific achievements and metrics",
+            "Provide concrete examples of projects",
+            "Tailor content to the specific university",
+            "Use active voice and avoid clichés"
+          ],
+          "flaggedPassages": [
+            "Since my childhood I have always been passionate about technology.",
+            "I have always dreamed of studying in a prestigious university abroad and your esteemed university is the perfect place for me to fulfil my dreams.",
+            "Your university is one of the best universities in the world. It has world-class faculty, state-of-the-art infrastructure and a diverse student community."
+          ],
+          "rewriteSuggestion": "I consistently push myself to exceed expectations, whether tackling coursework or collaborating on team projects.",
+          "truncated": false
+        },
+        {
+          "structure": 3,
+          "clarity": 4,
+          "voice": 3,
+          "aiDetection": 75,
+          "overallScore": 4,
+          "strengths": [
+            "passion for technology",
+            "hardworking",
+            "team player"
+          ],
+          "improvements": [
+            "Add specific academic achievements and project details to replace vague statements",
+            "Organize the SOP into clear sections: introduction, academic background, research interests, fit, future goals",
+            "Use active voice and concrete examples to demonstrate skills and experiences",
+            "Mention specific faculty, labs, or courses that align with your interests"
+          ],
+          "flaggedPassages": [
+            "Since my childhood I have always been passionate about technology.",
+            "Technology is the backbone of modern society.",
+            "Your university is one of the best universities in the world."
+          ],
+          "rewriteSuggestion": "Throughout my academic journey, I have consistently demonstrated diligence, commitment, and integrity in every project and coursework.",
+          "truncated": false
+        }
+      ],
+      "errors": []
+    },
+    "long": {
+      "chars": 5979,
+      "runs": [
+        {
+          "structure": 8,
+          "clarity": 8,
+          "voice": 7,
+          "aiDetection": 25,
+          "overallScore": 7.5,
+          "strengths": [
+            "Compelling personal narrative",
+            "Strong technical achievements",
+            "Clear alignment with CMU"
+          ],
+          "improvements": [
+            "Provide more concrete research details and results",
+            "Show deeper reflection on project failures",
+            "Reduce repetitive phrasing like 'I want to'",
+            "Quantify impact with more specific metrics"
+          ],
+          "flaggedPassages": [
+            "I am drawn to CMU specifically because of the Language Technologies Institute's work on low-resource and multilingual NLP.",
+            "I want to spend my career closing that distance, and I believe Carnegie Mellon is the best place to learn how."
+          ],
+          "rewriteSuggestion": "What excites me most about CMU is LTI's pioneering work on low-resource and multilingual NLP, which directly aligns with my own research on medical translation for Tamil.",
+          "truncated": false
+        },
+        {
+          "structure": 8,
+          "clarity": 8,
+          "voice": 7,
+          "aiDetection": 18,
+          "overallScore": 8,
+          "strengths": [
+            "Strong narrative arc",
+            "Concrete technical achievements",
+            "Clear research fit"
+          ],
+          "improvements": [
+            "Add more specific metrics to illustrate impact",
+            "Show deeper reflection on lessons learned from failures",
+            "Replace generic statements like 'I want to' with concrete intentions",
+            "Provide more detail on future research plans"
+          ],
+          "flaggedPassages": [
+            "I want to return to India and build language tools for the hundreds of millions of people who are shut out of digital services because those services only speak English.",
+            "I would like to take the Advanced NLP and Multilingual NLP courses and, if possible, contribute to research on code-mixed language understanding."
+          ],
+          "rewriteSuggestion": "I plan to enroll in Advanced NLP and Multilingual NLP courses, and I am eager to collaborate on code‑mixed language research projects.",
+          "truncated": false
+        },
+        {
+          "structure": 9,
+          "clarity": 8,
+          "voice": 7,
+          "aiDetection": 20,
+          "overallScore": 8.5,
+          "strengths": [
+            "Personal narrative",
+            "Concrete achievements",
+            "Clear fit with CMU"
+          ],
+          "improvements": [
+            "Shorten long, complex sentences for better readability",
+            "Provide more detailed technical insights into research methods",
+            "Reflect deeper on lessons learned from failures",
+            "Reduce repetitive phrasing such as repeated “I want to”"
+          ],
+          "flaggedPassages": [
+            "I want to return to India and build language tools for the hundreds of millions of people who are shut out of digital services because those services only speak English.",
+            "I want to spend my career closing that distance, and I believe Carnegie Mellon is the best place to learn how."
+          ],
+          "rewriteSuggestion": "My ambition is to bridge the gap between technology and real-world needs, and I see CMU as the ideal environment to develop the skills to do so.",
+          "truncated": false
+        },
+        {
+          "structure": 8,
+          "clarity": 8,
+          "voice": 7,
+          "aiDetection": 20,
+          "overallScore": 8,
+          "strengths": [
+            "Compelling personal narrative",
+            "Concrete achievements",
+            "Clear fit with CMU"
+          ],
+          "improvements": [
+            "Shorten long sentences for better readability",
+            "Specify research questions and methods more concretely",
+            "Reduce repetitive phrases like 'I want to'",
+            "Add a brief outline of post-MSc career plan"
+          ],
+          "flaggedPassages": [
+            "I want to spend my career closing that distance",
+            "I want to be one of the people solving it",
+            "I want to return to India and build language tools"
+          ],
+          "rewriteSuggestion": "My ambition is to bridge the gap between technology and real-world users, and I see CMU as the ideal environment to develop the skills needed to achieve that.",
+          "truncated": false
+        },
+        {
+          "structure": 8,
+          "clarity": 8,
+          "voice": 8,
+          "aiDetection": 20,
+          "overallScore": 8.3,
+          "strengths": [
+            "Compelling personal narrative",
+            "Strong technical achievements",
+            "Clear research fit"
+          ],
+          "improvements": [
+            "Shorten long sentences for better readability",
+            "Provide more specific metrics and results",
+            "Add deeper reflection on challenges and failures",
+            "Avoid generic phrases that lack specificity"
+          ],
+          "flaggedPassages": [
+            "I want to spend my career closing that distance, and I believe Carnegie Mellon is the best place to learn how.",
+            "I am drawn to CMU specifically because of the Language Technologies Institute's work on low-resource and multilingual NLP."
+          ],
+          "rewriteSuggestion": "I am committed to bridging the gap between technology and real users, and I see CMU’s hands‑on research culture as the ideal environment to hone that mission.",
+          "truncated": false
+        }
+      ],
+      "errors": []
+    }
+  }
+}

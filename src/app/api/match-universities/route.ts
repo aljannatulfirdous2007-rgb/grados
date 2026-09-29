@@ -44,7 +44,7 @@ Focus on universities known to admit Indian students in the ${field} field.
 Make sure tuition is within or near the stated budget.`
 
   const completion = await groq.chat.completions.create({
-    model: 'llama-3.1-8b-instant',
+    model: process.env.GROQ_MODEL ?? 'openai/gpt-oss-20b',
     messages: [{ role: 'user', content: prompt }],
     temperature: 0.4,
     max_tokens: 2000,
