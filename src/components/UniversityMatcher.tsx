@@ -7,7 +7,6 @@ interface University {
   name: string
   country: string
   program: string
-  acceptanceChance: number
   tier: 'Safety' | 'Target' | 'Reach' | 'Dream'
   avgTuition: number
   avgGPA: string
@@ -22,6 +21,8 @@ const tierColors: Record<string, string> = {
   Reach: 'bg-amber-500/20 text-amber-300 border-amber-500/30',
   Dream: 'bg-violet-500/20 text-violet-300 border-violet-500/30',
 }
+
+const tierOrder = ['Safety', 'Target', 'Reach', 'Dream']
 
 const countries = ['USA', 'Canada', 'UK', 'Germany', 'Singapore', 'Australia', 'Netherlands', 'France']
 const fields = [
@@ -157,13 +158,16 @@ export default function UniversityMatcher() {
       {/* Results */}
       {results && (
         <div className="space-y-4 animate-fade-up">
-          <p className="text-sm text-slate-400">{results.length} universities matched — sorted by acceptance chance</p>
+          <p className="text-sm text-slate-400">{results.length} universities matched — grouped Safety → Dream</p>
+          <p className="text-xs text-slate-500">
+            Tiers, tuition and score ranges are AI estimates, not official data. Always confirm on the university&apos;s website before applying.
+          </p>
           {[...results]
-            .sort((a, b) => b.acceptanceChance - a.acceptanceChance)
+            .sort((a, b) => tierOrder.indexOf(a.tier) - tierOrder.indexOf(b.tier))
             .map((uni, i) => (
               <div key={i} className="rounded-2xl border border-slate-800 bg-slate-900 p-5">
-                <div className="flex items-start justify-between gap-3">
-                  <div className="flex-1 min-w-0">
+                <div>
+                  <div className="min-w-0">
                     <div className="flex flex-wrap items-center gap-2 mb-1">
                       <span className={`rounded-full border px-2.5 py-0.5 text-xs font-medium ${tierColors[uni.tier] ?? 'bg-slate-700 text-slate-300 border-slate-600'}`}>
                         {uni.tier}
@@ -173,17 +177,6 @@ export default function UniversityMatcher() {
                     <h3 className="font-semibold text-white truncate">{uni.name}</h3>
                     <p className="text-sm text-slate-400">{uni.program}</p>
                   </div>
-                  <div className="text-right flex-shrink-0">
-                    <div className="text-2xl font-bold text-white">{uni.acceptanceChance}%</div>
-                    <div className="text-xs text-slate-500">chance</div>
-                  </div>
-                </div>
-
-                <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-slate-800">
-                  <div
-                    className="h-full rounded-full bg-emerald-500 transition-all duration-700"
-                    style={{ width: `${uni.acceptanceChance}%` }}
-                  />
                 </div>
 
                 <div className="mt-3 grid grid-cols-2 gap-2 text-xs text-slate-400 sm:grid-cols-3">
